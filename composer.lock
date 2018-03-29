@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "327dfc5c0193e2ce0d98bd111f24fab8",
+    "content-hash": "00ecd3992c349cd1afa383094abd3ead",
     "packages": [
         {
             "name": "composer/installers",
@@ -402,21 +402,181 @@
                 "environment"
             ],
             "time": "2016-09-01T10:05:43+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/add-meta-tags",
+            "version": "2.11.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/add-meta-tags/",
+                "reference": "tags/2.11.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/add-meta-tags.2.11.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/add-meta-tags/"
+        },
+        {
+            "name": "wpackagist-plugin/bootstrap-3-shortcodes",
+            "version": "3.3.11",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/bootstrap-3-shortcodes/",
+                "reference": "tags/3.3.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/bootstrap-3-shortcodes.3.3.11.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/bootstrap-3-shortcodes/"
+        },
+        {
+            "name": "wpackagist-plugin/elementor",
+            "version": "2.0.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/elementor/",
+                "reference": "tags/2.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/elementor.2.0.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/google-sitemap-generator",
+            "version": "4.0.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/google-sitemap-generator/",
+                "reference": "tags/4.0.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/google-sitemap-generator.4.0.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/google-sitemap-generator/"
+        },
+        {
+            "name": "wpackagist-plugin/instagram-feed",
+            "version": "1.6.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/instagram-feed/",
+                "reference": "tags/1.6.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/instagram-feed.1.6.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/instagram-feed/"
+        },
+        {
+            "name": "wpackagist-plugin/tablepress",
+            "version": "1.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/tablepress/",
+                "reference": "tags/1.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/tablepress.1.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/tablepress/"
+        },
+        {
+            "name": "wpackagist-plugin/yandex-metrica",
+            "version": "1.6.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/yandex-metrica/",
+                "reference": "tags/1.6.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/yandex-metrica.1.6.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/yandex-metrica/"
+        },
+        {
+            "name": "wpackagist-theme/zerif-lite",
+            "version": "1.8.5.15",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/zerif-lite/",
+                "reference": "1.8.5.15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/zerif-lite.1.8.5.15.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/zerif-lite/"
         }
     ],
     "packages-dev": [
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.2.2",
+            "version": "3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "d7c00c3000ac0ce79c96fcbfef86b49a71158cd1"
+                "reference": "4842476c434e375f9d3182ff7b89059583aa8b27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/d7c00c3000ac0ce79c96fcbfef86b49a71158cd1",
-                "reference": "d7c00c3000ac0ce79c96fcbfef86b49a71158cd1",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/4842476c434e375f9d3182ff7b89059583aa8b27",
+                "reference": "4842476c434e375f9d3182ff7b89059583aa8b27",
                 "shasum": ""
             },
             "require": {
@@ -426,7 +586,7 @@
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0"
+                "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0"
             },
             "bin": [
                 "bin/phpcs",
@@ -454,7 +614,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2017-12-19T21:44:46+00:00"
+            "time": "2018-02-20T21:35:23+00:00"
         }
     ],
     "aliases": [],
