@@ -38,7 +38,15 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.9.4",
     "oscarotero/env": "^1.1.0",
-    "roots/wp-password-bcrypt": "1.0.0"
+    "roots/wp-password-bcrypt": "1.0.0",
+    "wpackagist-plugin/yandex-metrica": "1.6.3",
+    "wpackagist-plugin/elementor": "2.0.3",
+    "wpackagist-plugin/add-meta-tags": "2.11.3",
+    "wpackagist-plugin/bootstrap-3-shortcodes": "3.3.11",
+    "wpackagist-plugin/instagram-feed": "1.6.2",
+    "wpackagist-plugin/tablepress": "1.9",
+    "wpackagist-plugin/google-sitemap-generator": "4.0.9",
+    "wpackagist-theme/zerif-lite": "1.8.5.15"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
