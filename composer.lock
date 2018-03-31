@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "00ecd3992c349cd1afa383094abd3ead",
+    "content-hash": "c7edaf150a3fa392fc6b2c00e2899eb3",
     "packages": [
         {
             "name": "composer/installers",
@@ -125,6 +125,28 @@
                 "zikula"
             ],
             "time": "2017-12-29T09:13:20+00:00"
+        },
+        {
+            "name": "elementor/elementor-pro-plugin",
+            "version": "1.15.6",
+            "dist": {
+                "type": "zip",
+                "url": "http://r.v-egorov.ru/elementor-pro-1.15.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "generate-press/gp-premium-plugin",
+            "version": "1.5.6",
+            "dist": {
+                "type": "zip",
+                "url": "http://r.v-egorov.ru/gp-premium-1.5.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-plugin"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -544,16 +566,36 @@
             "homepage": "https://wordpress.org/plugins/yandex-metrica/"
         },
         {
-            "name": "wpackagist-theme/zerif-lite",
-            "version": "1.8.5.15",
+            "name": "wpackagist-theme/generatepress",
+            "version": "2.0.2",
             "source": {
                 "type": "svn",
-                "url": "https://themes.svn.wordpress.org/zerif-lite/",
-                "reference": "1.8.5.15"
+                "url": "https://themes.svn.wordpress.org/generatepress/",
+                "reference": "2.0.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/zerif-lite.1.8.5.15.zip",
+                "url": "https://downloads.wordpress.org/theme/generatepress.2.0.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/generatepress/"
+        },
+        {
+            "name": "wpackagist-theme/zerif-lite",
+            "version": "1.8.5.37",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/zerif-lite/",
+                "reference": "1.8.5.37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/zerif-lite.1.8.5.37.zip",
                 "reference": null,
                 "shasum": null
             },

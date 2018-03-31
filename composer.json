@@ -24,14 +24,39 @@
     "forum": "https://discourse.roots.io/category/bedrock"
   },
   "config": {
-    "preferred-install": "dist"
+    "preferred-install": "dist",
+    "secure-http": false
   },
   "repositories": [
     {
       "type": "composer",
       "url": "https://wpackagist.org"
+    },
+    {
+	    "type": "package",
+	    "package": {
+		    "name": "elementor/elementor-pro-plugin",
+		    "version": "1.15.6",
+		    "type": "wordpress-plugin",
+		    "dist": {
+			    "type": "zip",
+			    "url": "http://r.v-egorov.ru/elementor-pro-1.15.6.zip"
+		    }
+	    }
+    },
+    {
+	    "type": "package",
+	    "package": {
+		    "name": "generate-press/gp-premium-plugin",
+		    "version": "1.5.6",
+		    "type": "wordpress-plugin",
+		    "dist": {
+			    "type": "zip",
+			    "url": "http://r.v-egorov.ru/gp-premium-1.5.6.zip"
+		    }
+	    }
     }
-  ],
+ ],
   "require": {
     "php": ">=5.6",
     "composer/installers": "^1.4",
@@ -46,7 +71,10 @@
     "wpackagist-plugin/instagram-feed": "1.6.2",
     "wpackagist-plugin/tablepress": "1.9",
     "wpackagist-plugin/google-sitemap-generator": "4.0.9",
-    "wpackagist-theme/zerif-lite": "1.8.5.15"
+    "wpackagist-theme/zerif-lite": "1.8.5.37",
+    "wpackagist-theme/generatepress": "2.0.2",
+    "elementor/elementor-pro-plugin": "1.15.6",
+    "generate-press/gp-premium-plugin": "1.5.6"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"
