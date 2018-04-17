@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f20ad567cd06517cf6451b42f406a9e5",
+    "content-hash": "fa6f553f52620dd387ad310450bbc4cf",
     "packages": [
         {
             "name": "composer/installers",
@@ -447,15 +447,15 @@
         },
         {
             "name": "wpackagist-plugin/bootstrap-3-shortcodes",
-            "version": "3.3.11",
+            "version": "3.3.12",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/bootstrap-3-shortcodes/",
-                "reference": "tags/3.3.11"
+                "reference": "tags/3.3.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/bootstrap-3-shortcodes.3.3.11.zip",
+                "url": "https://downloads.wordpress.org/plugin/bootstrap-3-shortcodes.3.3.12.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -467,15 +467,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "2.0.3",
+            "version": "2.0.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/2.0.3"
+                "reference": "tags/2.0.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.2.0.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/elementor.2.0.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -507,15 +507,15 @@
         },
         {
             "name": "wpackagist-plugin/instagram-feed",
-            "version": "1.6.2",
+            "version": "1.8.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/instagram-feed/",
-                "reference": "tags/1.6.2"
+                "reference": "tags/1.8.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/instagram-feed.1.6.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/instagram-feed.1.8.2.zip",
                 "reference": null,
                 "shasum": null
             },
